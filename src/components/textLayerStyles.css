@@ -1,0 +1,21 @@
+/* textLayerStyles.css */
+
+.react-pdf__Page__textContent {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    line-height: 1.2;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    pointer-events: none;
+  }
+  
+  .react-pdf__Page__textContent > div {
+    position: relative;
+    white-space: pre-line;
+    word-wrap: break-word;
+  }
+  
