@@ -8,7 +8,7 @@
 
 .pdf-scroll-container {
   display: flex;
-  flex-direction: row;
+  flex-direction: center;
   overflow-x: auto;
   overflow-y: hidden;
   height: 100%;
